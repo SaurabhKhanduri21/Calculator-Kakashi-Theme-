@@ -1,0 +1,67 @@
+/* Import Google font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(50,52,75);
+}
+.container {
+
+  background: rgb(196,199,204);
+  background-image: url(./img/curse.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-position: 30%;
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+  border-radius: 12px;
+  padding: 10px 20px 20px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.display {
+  background-image: url(./img/pngwing.com.png);
+  background-size: 15%;
+  border-radius: 0.2rem;
+  padding-right: 1rem;
+  background-repeat: no-repeat;
+  background-position: 3%;
+  height: 60px;
+  width: 100%;
+  outline: none;
+  border: none;
+  text-align: right;
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: #000e1a;
+  pointer-events: none;
+}
+.buttons {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.buttons button {
+  opacity: 80%;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #eee;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.buttons button:active {
+  transform: scale(0.99);
+}
+.operator {
+  color: rgb(32,75,84);
+}
